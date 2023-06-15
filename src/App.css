@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+}
+
+body{
+
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(203,120,180,1) 0%, rgba(130,167,206,1) 58%, rgba(0,212,255,1) 100%);
+}
+
+.App{
+
+  margin: 1rem;
+  padding: 1rem;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.153) 5px 10px 15px ;
+  margin-top: 40vh;
+}
+.h{
+
+  border-radius: 10px;
+text-align: center;
+
+}
+button{
+font-size: larger;
+padding: 0.5rem;
+border-radius: 5px;
+display: block;
+margin-bottom: 5px;
+cursor: pointer;
+width: auto;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+gap: 1rem;
+
+}
+
+.in{
+  color: green;
+  font-weight: bold
+}
+
+.re{
+  color: black;
+  font-weight: bold
+
+}
+
+.de{
+  color: #bb1b1b;
+  font-weight: bold
+}
